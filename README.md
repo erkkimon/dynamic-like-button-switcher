@@ -18,7 +18,7 @@ First add the following lines in the head of your HTML document.
 ```
 In the code above I link to jQuery not hosted by me, but of course it can be hosted by you also. You also need iFrameTracker to detect clicks on Facebook Like Button. I used the version 1.3 and iFrameTracker can be downloaded on Github (https://github.com/finalclap/iframeTracker-jquery), named it as jquery.iframetracker-1.3.js and put it in "lib" subdirectory. I also sourced the dynamic-like-button-switcher.js in "lib", which is the magical and essential part in this repository.
 
-After linking the necessary libraries to your index.html, placeholder needs to be added.
+After linking the necessary libraries to your index.html, placeholder needs to be added. The class name of the div containing the iframe needs to be "likebutton-placeholder".
 ```html
 <div class="likebutton-placeholder">
   <iframe></iframe>

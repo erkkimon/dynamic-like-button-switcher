@@ -25,7 +25,7 @@ After linking the necessary libraries to your index.html, placeholder needs to b
 </div> 
 ```
 And finally, you will need to call dynamicLikeButtonSwitcher() defined in dynamic-like-button-switcher.js library with the link to your FB page address as a parameter. dynamicLikeButtonSwitcher() should be called from $(document).ready(), e.g. like this.
-```javascript
+```html
 <script>
   $(document).ready(function() 
   {
